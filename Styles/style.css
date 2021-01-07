@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(85, 83, 83);
+}
+
+header{
+    
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    height: 10vh;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.job{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.781);
+
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+.job > h1{
+    text-align: center;
+}
+
+.job > p{
+    text-align: center;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.781);
+
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+.history > h1{
+    text-align: center;
+}
+
+.history > p{
+    text-align: center;
+}
+
+#result{
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    
+    border-radius: 10px;
+}
+
+#click{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer > h1{
+    color: white;
+    margin: auto;
+    margin-left: 30px;
+}
+
+#informations{
+    color: white;
+    list-style: none;
+}
